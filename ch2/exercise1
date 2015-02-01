@@ -1,0 +1,5 @@
+for ISO C size_t header definitions, if not more than 1 typedef is allowed, how must they be written if it is defined in 26 headers?
+
+They must be conditionals.
+
+#ifdef size_t and __STD__  (or a similar line)

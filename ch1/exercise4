@@ -1,0 +1,1 @@
+in 2038, and change to long (64 bit integers). Applications will need to be recompiled. WHY? because they're currently running in 32-bit mode. to make the change we must 1) change headers 2) recompile 3) restart

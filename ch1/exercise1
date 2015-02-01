@@ -1,0 +1,8 @@
+simply cd . and cd .. and see what happes
+
+use ls -i : which prints inode number
+use ls -d : which prints directories as files, according to ls (no recursive listing)
+
+run: ls -ldi /. /..
+VS
+ls -ldi ~/. ~/..

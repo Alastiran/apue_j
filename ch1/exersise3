@@ -1,0 +1,1 @@
+when passing by pointer, append 'const' to argument to ensure it can't be modified (if it should not be modified)
