@@ -1,0 +1,17 @@
+#include "apue.h"
+
+int
+main(void)
+{
+    char readhere[BUFSIZ];
+
+    while (fgets(readhere, BUFSIZ, stdin) != NULL)
+        if (fputs(readhere, stdout) == EOF)
+            fputs("output error\0", stdout);
+
+    if (ferror(stdin))
+        fputs("input error\0", stdout);
+    
+    exit(0);
+}
+
